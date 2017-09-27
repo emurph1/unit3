@@ -7,6 +7,13 @@
 for i in range(0,5):
     print('I <3 Computer Science')"""
 
+# while loops
+i = 1
+while i <= 5:
+    print('I <3 Computer Science')
+    i = i+1 #new update for i because i is always less than 5, so code keeps running and the page will want kill
+
+
 """
 #print the numbers from 1 to 20
 for i in range(1,21):
@@ -17,9 +24,10 @@ for i in range(1,21):
 #third number tells how many to go up each time --> can do a negative number too
 for i in range(13, 28, 2):
     print(i) """
-    
+   
+""" 
 #add up numbers from 1 to 5
 total = 0
 for i in range (1,6):
     total = total + i
-print(total)
+print(total)"""
