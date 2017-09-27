@@ -4,6 +4,6 @@
 
 num = int(input('Enter a number: '))
 
-for i in range(0, (num*num)):
+for i in range(0, num+1):
     i = i*i
     print(i)
