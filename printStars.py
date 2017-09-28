@@ -4,7 +4,7 @@
 
 
 for i in range(1, 11):
-    print('*' *i)
-    for i in range(i<10):
-        print(' ' * i)
+    for j in range (1, i+1):
+        print('* ', end = ' ')
+    print('\r')
     
