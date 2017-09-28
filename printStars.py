@@ -4,5 +4,7 @@
 
 
 for i in range(1, 10):
+    if i <= 10:
+        print(' ', i)
     print('*' * i)
-
+    
