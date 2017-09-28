@@ -4,4 +4,5 @@
 
 
 for i in range(1, 101):
-    print(i + i)
+    total = i + (i)
+    print(total)
