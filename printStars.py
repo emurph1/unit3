@@ -4,5 +4,4 @@
 
 
 for i in range(1, 10):
-    sym = (' ' * i)
-    print(sym, '*' * i)
+    print('*' * i)
