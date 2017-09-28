@@ -6,6 +6,8 @@
 #copt cat:
 while True:
     text = input('Type something: ')
-    print(text)
     if text == 'something':
+        print(text)
         break
+    
+print('You win')
