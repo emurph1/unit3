@@ -4,6 +4,5 @@
 
 
 for i in range(1, 11):
-    pyr = '*' * i
-    print(pyr)
+    print('*' * i)
     
