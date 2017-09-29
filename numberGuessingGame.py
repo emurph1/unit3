@@ -2,13 +2,14 @@
 #2017-09-29
 #numberGuessingGame.py -
 
-
+from random import randint
+num = randint(1,100)
 for i in range(1, 101):
     guess = int(input('Enter a guess: '))
-    if guess < 63:
+    if guess < num:
         print('Too low')
-    elif guess > 63:
+    elif guess > num:
         print('Too high')
-    elif guess == 63:
+    elif guess == num:
         print('You got it in', i, 'tries')
         break
