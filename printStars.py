@@ -2,7 +2,7 @@
 #2017-09-28
 #printStars.py -
 
-
-for i in range(1, 11):
-    print('*' * i)
+rows = 11
+for i in range(rows):
+    print(' '*(11-i-1) + '*'*(2*i+1))
     
