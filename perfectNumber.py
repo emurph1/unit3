@@ -10,5 +10,5 @@ while i <= num:
         print(i)
 if i == num:
     print('Perfect')
-else:
+elif i != num:
     print('Not Perfect')
