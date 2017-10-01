@@ -5,11 +5,9 @@
 num = int(input('Enter a number: '))
 i = 1
 while i <= num:
-    i += 1
     if num%i == 0:
-        total = i
-if total == num:
-    print('Perfect')
-elif total != num:
-    print('Not Perfect')
+        total = (i)
+        print(total)
+         i += 1
+
 
