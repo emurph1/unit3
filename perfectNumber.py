@@ -7,7 +7,7 @@ i = 0
 while i <= num:
     i += 1
     if num%i == 0:
-        total = int((i))
+        total = i
         if total == num:
             print('Perfect')
             break
