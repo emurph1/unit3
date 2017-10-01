@@ -7,11 +7,12 @@ i = 0
 while i <= num:
     i += 1
     if num%i == 0:
-        total = int((i+1))
+        total = int((i))
         if total == num:
             print('Perfect')
-        else:
-            print('Not perfect')
+        
+else:
+    print('Not perfect')
 
         
 
