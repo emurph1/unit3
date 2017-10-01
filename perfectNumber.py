@@ -8,6 +8,6 @@ while i <= num:
     if num%i == 0:
         total = (i)
         print(total)
-         i += 1
+        i += 1
 
 
