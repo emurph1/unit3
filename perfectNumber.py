@@ -9,6 +9,7 @@ while i <= num:
     if num%i == 0:
         print(i)
         total = (0 + i*i)
+        print(total)
 if total == num:
     print('Perfect')
 elif total != num:
