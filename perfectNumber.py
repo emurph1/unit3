@@ -10,8 +10,6 @@ while i <= num:
         total = (i)
         if total == num:
             print('Perfect')
-else:
-    print('Not Perfect')
         
 
 
