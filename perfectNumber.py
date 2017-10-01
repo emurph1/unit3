@@ -8,7 +8,6 @@ while i <= num:
     i += 1
     if num%i == 0:
         print(i)
-        i += i
         total = i
         if total == num:
             print('Perfect')
