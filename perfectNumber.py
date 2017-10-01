@@ -3,11 +3,12 @@
 #perfectNumber.py - tells whether number is perfect or not
 
 num = int(input('Enter a number: '))
-i = 1
+i = 0
 while i <= num:
+    i += 1
     if num%i == 0:
         total = (i)
         print(total)
-        i += 1
+        
 
 
