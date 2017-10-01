@@ -7,8 +7,8 @@ i = 1
 while i <= num:
     i += 1
     if num%i == 0:
-        sum += i 
-        if sum == num:
+        print(i)
+        if (i+i) == num:
             print('Perfect')
 else:
     print('Not Perfect')
