@@ -10,8 +10,8 @@ while i <= num:
         total = (i+1)
         if total == num:
             print('Perfect')
-            if total != num:
-                print('Not perfect')
+if total != num:
+    print('Not perfect')
                 
 print(total)
         
