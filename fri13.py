@@ -3,5 +3,5 @@
 #fri13.py - prints out dates for the next 10 fridays the 13ths
 
 import calendar
-today = calendar.weekday(2017,4, 9)
-print(today)
+calendar.setfirstweekday(calendar.SUNDAY)
+print(calendar.weekday(2017,10,1))
