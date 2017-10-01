@@ -6,9 +6,9 @@ num = int(input('Enter a number: '))
 i = 1
 while i <= num:
     i += 1
-    divisors = (num%i == 0)
-    total = divisors + divisors
-    if total == num:
-        print('Perfect')
-    else:
-        print('Not Perfect')
+    if num%i == 0:
+        print(i)
+if i == num:
+    print('Perfect')
+else:
+    print('Not Perfect')
