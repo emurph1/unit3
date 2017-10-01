@@ -12,8 +12,7 @@ while i <= num:
             print('Perfect')
 if total != num:
     print('Not perfect')
-                
-print(total)
+
         
 
 
