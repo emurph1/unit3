@@ -10,7 +10,6 @@ while i <= num:
         print(i)
         total = i*i
         if total == num:
-            print(total)
             print('Perfect')
             break
 else:
