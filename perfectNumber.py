@@ -9,5 +9,5 @@ while i <= num:
     if num%i == 0:
         if (i+i) == num:
             print('Perfect')
-        else:
-            print('Not Perfect')
+else:
+    print('Not Perfect')
