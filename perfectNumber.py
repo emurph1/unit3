@@ -9,5 +9,5 @@ while i <= num:
     if num%i == 0:
         if i == num:
             print('Perfect')
-elif i != 0:
-    print('Not Perfect')
+            elif i != 0:
+                print('Not Perfect')
