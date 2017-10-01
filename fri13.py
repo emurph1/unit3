@@ -4,5 +4,5 @@
 
 from calendar import weekday(year,month,day)
 
-today = weekday(2017,4,09)
+today = weekday(2017,4, 9)
 print(today)
