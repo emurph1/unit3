@@ -11,5 +11,5 @@ while i <= num:
         total = (0 + i*i)
 if total == num:
     print('Perfect')
-else:
+elif total != num:
     print('Not Perfect')
