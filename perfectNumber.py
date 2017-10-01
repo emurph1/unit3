@@ -10,4 +10,4 @@ while i <= num:
         if i == num:
             print('Perfect')
         else:
-            print('Not Perfect')
+print('Not Perfect')
