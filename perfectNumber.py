@@ -5,7 +5,8 @@
 num = int(input('Enter a number: '))
 i = 1
 while 1 <= num:
-    divisors = (num%1 == 0)
+    i += 1
+    divisors = (num%i == 0)
     total = divisors + divisors
     if total == num:
         print('Perfect')
