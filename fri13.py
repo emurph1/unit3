@@ -6,16 +6,15 @@ from datetime import date
 from calendar import weekday
 
 today = date.today().year, date.today().month, date.today().day 
-print(today)
-fri = weekday(date.today().year,date.today().month, 13)
 year = date.today().year
 month = date.today().month
+day = 13
+fri = weekday(date.today().year,date.today().month, day)
 i = 1
 while i <= 10:
     i+=1
-    fridate = (year,month, 13)
-    
-        
+    fridate = (year,month, day)
+    if 
     
     
 print(fridate)
