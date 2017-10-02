@@ -6,4 +6,3 @@ from datetime import date
 
 today = date.today().day, date.today().month, date.today().year
 print(today)
-print(weekday(2017,10,13))
