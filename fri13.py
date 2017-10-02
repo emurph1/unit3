@@ -7,5 +7,8 @@ from calendar import weekday
 
 today = date.today().day, date.today().month, date.today().year
 print(today)
-print(weekday(2017,10,13))
+i = 0
+while i < 1:
+    if day == 4 and date.today().day == 13:
+        print(today)
 
