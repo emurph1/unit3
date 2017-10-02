@@ -11,4 +11,5 @@ i = 0
 while i < 1:
     if day == 4 and date.today().day == 13:
         print(today)
+        i += 1
 
