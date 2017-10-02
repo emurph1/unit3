@@ -4,4 +4,5 @@
 
 for i in range(1,100,000):
     if i // 3 and 10 and 17:
+        total += i
         print(i)
