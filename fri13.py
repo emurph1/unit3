@@ -4,3 +4,4 @@
 
 from calendar import weekday
 
+weekday(2017,10,02)
