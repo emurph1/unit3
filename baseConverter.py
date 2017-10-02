@@ -5,6 +5,8 @@
 num = int(input('Enter a base-10 number: '))
 base = int(input('What base would you like to convert to? ')) 
 if base = 2:
-    for i in range(0, num)
+    for i in range(0,num):
+        print((num//10)*(2*i))
+        
     
 
