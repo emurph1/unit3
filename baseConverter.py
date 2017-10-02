@@ -5,6 +5,5 @@
 num = int(input('Enter a base-10 number: '))
 base = int(input('What base would you like to convert to? ')) 
 if base = 2:
-    num1 = (num % 10)
-    final1 = (num // 10)
+    
 
