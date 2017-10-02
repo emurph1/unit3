@@ -10,9 +10,10 @@ print(today)
 fri = weekday(date.today().year,date.today().month, 13)
 fridate = date.today().year,date.today().month, 13
 i = 0
-while i <= 7:
+while i <= 10:
     i +=1
-    print(fridate)
+    
+print(fridate)
 
     
         
