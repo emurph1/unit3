@@ -5,7 +5,9 @@
 num = int(input('Enter a base-10 number: '))
 base = int(input('What base would you like to convert to? ')) 
 if base == 2:
-    for i in range(0,num):
+    i = 1
+    while i <= num:
+        i+=1
         print((num % 2))
         
     
