@@ -10,7 +10,7 @@ pennies = ((cents - ((5 * nickels) + (10 * dimes) + (25 * quarters)))//1)
 i = 0
 while i <= cents:
     i += 1
-    print(quarters)
-    print(dimes)
-    print(nickels)
-    print(pennies)
+print(quarters)
+print(dimes)
+print(nickels)
+print(pennies)
