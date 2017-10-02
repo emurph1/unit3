@@ -9,8 +9,8 @@ today = date.today().day, date.today().month, date.today().year
 print(today)
 day = weekday(date.today().year,date.today().month, 13)
 i = 0
-while i < 1:
-    day == 4 and date.today().day == 13:
+while i <= 7:
+    if day == 4 and date.today().day == 13:
         print(today)
         i += 1
         
