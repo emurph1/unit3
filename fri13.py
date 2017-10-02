@@ -18,6 +18,6 @@ while i <= 10:
         
     
     
-print(weekday(fridate))
+print(fridate)
         
 
