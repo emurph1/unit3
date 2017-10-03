@@ -6,8 +6,8 @@ from datetime import date
 from calendar import weekday
 
 today = date.today().year, date.today().month, date.today().day 
-year = date.today().year + 1
-month = date.today().month + 1
+year = date.today().year
+month = date.today().month
 day = 13
 fri = weekday(date.today().year,date.today().month, day)
 i = 1
