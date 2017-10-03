@@ -14,8 +14,7 @@ i = 1
 while i <= 10:
     i+=1
     fridate = (year,month, day)
-    if day == 13:
-        fri == 4
+    if day == 13 and fri == 4:
         print(fridate)
         
 
