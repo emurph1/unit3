@@ -8,7 +8,7 @@ from calendar import weekday
 today = date.today().year, date.today().month, date.today().day 
 year = date.today().year
 month = date.today().month
-day = date.today().day + 1
+day = date.today().day
 fri = weekday(date.today().year,date.today().month, day)
 i = 1
 while i <= 10:
