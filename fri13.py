@@ -13,8 +13,8 @@ fri = weekday(date.today().year,date.today().month, date.today().day + 1)
 i = 1
 while i <= 10:
     i+=1
-    fridate = (year, month, day)
     if fri == 4:
+        fridate = (year, month, day)
         print(fridate)
 
 
