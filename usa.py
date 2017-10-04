@@ -9,12 +9,16 @@ blue = Color(0x0000FF,1)
 
 whiteOutline = LineStyle(5, white)
 redRectangle = RectangleAsset(780, 50, whiteOutline, red)
-whiteRectangle = RectangleAsset(500, 200, whiteOutline, white)
+whiteRectangle = RectangleAsset(780, 50, whiteOutline, white)
 
 i = 0
 while i<=7:
     i+=1
-    Sprite(redRectangle, (300,0)
+    Sprite(redRectangle, (300,0))
+b = 0
+while b<=7:
+    b+=1
+    Sprite(whiteRectangle, (300,100))
     
     
     
