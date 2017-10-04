@@ -5,17 +5,21 @@
 from datetime import date
 from calendar import weekday
 
-year = date.today().year
+today = date.today().day, date.today().month, date.today().year
+day = weekday(date.today().year,date.today().month,date.today().day)
 month = date.today().month
-day = date.today().day
-fri = weekday(date.today().year,date.today().month, 13)
+year = date.today().year
 
-i = 1
-while i <= 10 and month < 13:
-    i+=1
-    fridate = (year, month, 13 + 1)
-    if fri == 4:
-        print(fridate)
+i=0
+while i< 10:
+    day = weekday(year,month,13)
+    if day == 4:
+        print(month, '13', year)
+        i+=1
+    month = month + 1 
+    if month >12:
+        month = 1
+        year += 1 
         
         
 
