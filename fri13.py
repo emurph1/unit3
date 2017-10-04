@@ -14,7 +14,7 @@ i=0
 while i< 10:
     day = weekday(year,month,13)
     if day == 4:
-        print(month,'13',year)
+        print(month,'/13/',year)
         i+=1
     month = month + 1 
     if month > 12:
