@@ -8,14 +8,14 @@ from calendar import weekday
 today = date.today().year, date.today().month, 13
 year = date.today().year
 month = date.today().month
-fri = weekday(date.today().year,date.today().month, 13)
+fri = weekday(date.today().year,date.today().month, 13 + 1)
 i = 1
 while i <= 10 and month < 13:
     i+=1
-    fridate = (year, month, 13)
+    fridate = (year, month, 13 + 1)
     if fri == 4:
         print(fridate)
-        month += 1
+        
         
 
 
