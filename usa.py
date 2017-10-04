@@ -14,7 +14,7 @@ whiteRectangle = RectangleAsset(500, 200, whiteOutline, white)
 i = 0
 while i<=7:
     i+=1
-    print(redRectangle)
+    Sprite((redRectangle), (600,200))
     
     
     
