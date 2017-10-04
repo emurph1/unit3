@@ -14,10 +14,11 @@ blackOutline = LineStyle(1, black)
 redRectangle = RectangleAsset(780, 50, whiteOutline, red)
 whiteRectangle = RectangleAsset(780, 50, blackOutline, white)
 
-i = 0
+i = Sprite(redRectangle, (300,0))
 while i<=4:
-    i+=1
-    Sprite(redRectangle, (300,0))
+    i+= 1
+    print(i)
+    
 i = 0
 while i<=3:
     i+=1
