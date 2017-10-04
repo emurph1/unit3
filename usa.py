@@ -12,17 +12,16 @@ whiteOutline = LineStyle(5, white)
 blackOutline = LineStyle(1, black)
 
 redRectangle = RectangleAsset(780, 50, whiteOutline, red)
-whiteRectangle = RectangleAsset(780, 50, whiteOutline, white)
+whiteRectangle = RectangleAsset(780, 50, blackOutline, white)
 
 i = 0
-while i<=7:
+while i<=4:
     i+=1
     Sprite(redRectangle, (300,0))
-b = 0
-while b<=7:
-    b+=1
+i = 0
+while i<=3:
+    i+=1
     Sprite(whiteRectangle, (300,45))
-    
     
     
 
