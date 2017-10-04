@@ -12,8 +12,10 @@ redRectangle = RectangleAsset(200, 200, whiteOutline, red)
 whiteRectangle = RectangleAsset(500, 200, whiteOutline, white)
 
 i = 0
-while i<=13:
+while i<=7:
     i+=1
+    print(redRectangle)
+    
     
     
 
