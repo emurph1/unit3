@@ -7,6 +7,8 @@ i = 1
 
 while i <= 4:
     i += 1
-    totalq = |cents -(25*i)|
+    totalq = cents -(25*i)
+    if totalq >= 0:
     print(totalq)
+    
     
