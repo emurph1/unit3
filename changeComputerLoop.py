@@ -9,12 +9,12 @@ dime = cents-(10*i)
 nickel = cents-(5*i)
 penny = cents-(1*i)
 while i <= 4:
-    if cents - quarter == dime:
+    if quarter == dime:
         print('Quarters:', i)
-    elif cents - dime == nickel:
+    elif dime == nickel:
         print('Dimes:', i)
-    elif cents - nickel == penny:
+    elif nickel == penny:
         print('Nickels:',i)
-    elif cents - penny == 0:
+    elif penny == 0:
         print('Pennies:', i)
     i += 1
