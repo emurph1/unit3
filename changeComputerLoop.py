@@ -7,12 +7,7 @@ i = 1
 
 while i <= 4:
     i += 1
-    quarter = cents-(25*i) and cents-(25*i) >= 0
-    dime = quarter - (10*i) and quarter - (10*i) >= 0
-    nickel = dime - (5*i) and dime - (5*i) >= 0
-    penny = nickel -(1*i) and nickel -(1*i) >= 0
-print('Quarters:', i)
-print('Dimes:', i)
-print('Nickels:',i)  
-print('Pennies:', i)
+     totalq = cents -(25*i)
+    print(totalq)
+
               
