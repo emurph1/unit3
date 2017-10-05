@@ -8,6 +8,4 @@ i = 1
 while i <= 4:
     i += 1
     totalq = cents -(25*i)
-    print(totalq)
-
-              
+    print(totalq >= 0)
