@@ -13,6 +13,6 @@ blueRectangle = PolygonAsset([(0,0), (-25, 50), (0,100), (25, 50)], whiteOutline
 
 for j in range(12):
     for i in range(30):
-        Sprite(blueRectangle, (25, 0))
+        Sprite(blueRectangle, (25 + 40*i, 0 + 50*j))
 
 App().run()
