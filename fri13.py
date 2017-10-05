@@ -1,5 +1,5 @@
 #Emily Murphy
-#2017-10-02
+#2017-10-05
 #fri13.py - prints out dates for the next 10 fridays the 13ths
 
 from datetime import date
