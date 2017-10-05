@@ -13,4 +13,4 @@ while i <= 4:
         print('Quarters:', i)
 while i <= 10:
     if cents -(10*i) == 0:
-        print('Dimes:'), i)
+        print('Dimes:', i)
