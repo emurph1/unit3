@@ -9,6 +9,9 @@ while i <= 4:
     i += 1
     totalq = cents -(25*i)
     if totalq >= 0:
-    print(totalq)
+        print(totalq)
+        totald = totalq -(10*i)
+        if total d >= 0:
+            print(totald)
     
     
