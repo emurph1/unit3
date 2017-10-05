@@ -11,3 +11,4 @@ i = 1
 while i <=4:
     if cents-(25*i)== 0:
         print('Quarters:', i)
+    i += 1
