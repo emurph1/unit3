@@ -11,7 +11,13 @@ while i <= 4:
     if totalq >= 0:
         print(totalq)
         totald = totalq -(10*i)
-        if total d >= 0:
+        if totald >= 0:
             print(totald)
+            totaln = totald - (5*i)
+            if totaln >= 0:
+                print(totaln)
+                totalp = totaln - (1*i)
+                if totalp >= 0:
+                    print(totalp)
     
     
