@@ -8,14 +8,14 @@ while i <= 4:
     quarter = cents-(25*i)
     if quarter >= 0:
       dime = quarter - (10*i)
-      print('Quarters:', i)
       if dime >= 0:
           nickel = dime - (5*i)
-          print('Dimes:', i)
           if nickel >= 0:
               penny = nickel -(1*i)
-              print('Nickels:',i)
-              if penny >0:
-                  print('Pennies:', i)
+             
+print('Quarters:', i)                  
+print('Nickels:',i)           
+print('Dimes:', i)
+print('Pennies:', i)
               
     i += 1
