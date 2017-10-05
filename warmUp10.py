@@ -7,9 +7,10 @@ from ggame import *
 blue = Color(0x0000FF,1)
 white = Color(0xFFFFFF,0)
 
-whiteOutline = LineStyle(15, white)
+whiteOutline = LineStyle(10, white)
 
-blueRectangle = RectangleAsset(500, 200, whiteOutline, blue)
+blueRectangle = PolygonAsset([(0,0), (120, 180), (60,300)], whiteOutline, blue)
+
 
 
 App().run()
