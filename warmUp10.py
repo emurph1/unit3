@@ -9,7 +9,7 @@ white = Color(0xFFFFFF,0)
 
 whiteOutline = LineStyle(10, white)
 
-blueRectangle = PolygonAsset([(100,0), (20, 100), (300,300), (200, 100)], whiteOutline, blue)
+blueRectangle = PolygonAsset([(0,0), (-25, 50), (0,100), (25, 50)], whiteOutline, blue)
 
 Sprite(blueRectangle, (200, 100))
 
