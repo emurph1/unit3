@@ -11,7 +11,7 @@ penny = cents-(1*i)
 while i <= 4:
     if cents - quarter== 0:
         print('Quarters:', i)
-    elif cents - dimes == 0:
+    elif cents - dime == 0:
         print('Dimes:', i)
     elif cents - nickel == 0:
         print('Nickels:',i)
