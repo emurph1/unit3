@@ -7,5 +7,5 @@ i = 1
 
 while i <= 4:
     i += 1
-    totalq = cents -(25*i)
-    print(totalq >= 0)
+    totalq = cents -(25*i) and totalq > 0
+    print(totalq)
