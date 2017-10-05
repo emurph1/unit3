@@ -11,6 +11,8 @@ whiteOutline = LineStyle(10, white)
 
 blueRectangle = PolygonAsset([(0,0), (-25, 50), (0,100), (25, 50)], whiteOutline, blue)
 
-Sprite(blueRectangle, (25, 0))
+for j in range(12):
+    for i in range(30):
+        Sprite(blueRectangle, (25, 0))
 
 App().run()
