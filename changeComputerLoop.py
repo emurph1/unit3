@@ -5,16 +5,6 @@
 cents = int(input('Enter number of cents: '))
 i = 1
 while i <= 4:
-    quarter = cents-(25*i)
-    dime = cents-(10*i)
-    nickel = cents-(5*i)
-    penny = cents-(1*i)
-    if quarter == 0:
-        print('Quarters:', i)
-    if dime == 0:
-        print('Dimes:', i)
-    if nickel == 0:
-        print('Nickels:',i)
-    if penny == 0:
-        print('Pennies:', i)
+    quarters = cents - (25*i)
+    print(quarters)
     i += 1
