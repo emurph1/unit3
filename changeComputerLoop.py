@@ -14,8 +14,8 @@ while i <= 4:
           if nickel >= 0:
               penny = nickel -(1*i)
              
-print('Quarters:', i)                  
-print('Nickels:',i)           
-print('Dimes:', i)
-print('Pennies:', i)
+print('Quarters:', i- quarter)                  
+print('Nickels:',i - dime)           
+print('Dimes:', i- nickel)
+print('Pennies:', i - penny)
               
