@@ -19,5 +19,9 @@ while i <= 4:
                 totalp = totaln - (1*i)
                 if totalp >= 0:
                     print(totalp)
+print('Quarters:', i)
+print('Dimes:', i)
+print('Nickels:', i)
+print('Pennies:', i)
     
     
