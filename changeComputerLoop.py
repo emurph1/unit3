@@ -7,15 +7,10 @@ totalq = cents/25
 totald = totalq/10
 totaln = totald/5
 totalp = totaln/1
-i = 0
-while i == 4:
-    i += 1
-    if totalq != 0:
-        print(totald)
-        if totald != 0:
-            print(totaln)
-            if totaln != 0:
-                print(totalp)
+print(totalq)
+print(totald)
+print(totaln)
+print(totalp)
     
     
     
