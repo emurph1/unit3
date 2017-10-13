@@ -21,4 +21,4 @@ for ch in word:
     if ch == 'z':
         break
     else:
-        print(word)
+        word = input('Enter a word: ')
