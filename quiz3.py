@@ -20,4 +20,5 @@ while True:
     word = input('Enter a word: ')
     for ch in word:
         if ch == 'z':
+        break
     break
