@@ -17,7 +17,6 @@ for i  in range(13, 332):
 print(total)
 
 word = input('Enter a word: ')
-while True:
-    for ch in word:
-        if ch == 'z':
-            break
+for ch in word:
+    if ch == 'z':
+        break
