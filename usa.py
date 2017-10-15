@@ -29,20 +29,20 @@ star = PolygonAsset([(0,0),(8,0),(12,-
 8),(16,0),(24,0),(16,4),(18,12),(12,6),(4,12),(8,4)],whiteLine,white)
 #Sprite stripes
 for i in range(14):
-if i%2 == 0:
-Sprite(redStripe,(0,i*STRIPE_HEIGHT))
+  if i%2 == 0:
+    Sprite(redStripe,(0,i*STRIPE_HEIGHT))
 #Sprite blue rectangle
-Sprite(blueRectangle)
+    Sprite(blueRectangle)
 #Sprite stars
 for i in range(NUM_LONG_ROWS):
-for j in range(0,STARS_PER_LONG_ROW):
-x = FIRST_STAR_X + STAR_WIDTH*j
-y = FIRST_STAR_Y + STAR_HEIGHT*i
-Sprite(star,(x,y))
+  for j in range(0,STARS_PER_LONG_ROW):
+    x = FIRST_STAR_X + STAR_WIDTH*j
+    y = FIRST_STAR_Y + STAR_HEIGHT*i
+    Sprite(star,(x,y))
 for i in range(NUM_SHORT_ROWS):
-for j in range(STARS_PER_SHORT_ROW):
-x = FIRST_STAR_X + STAR_WIDTH/2 + STAR_WIDTH*j
-y = FIRST_STAR_Y + STAR_HEIGHT/2 +STAR_HEIGHT*i
-Sprite(star,(x,y))
+  for j in range(STARS_PER_SHORT_ROW):
+    x = FIRST_STAR_X + STAR_WIDTH/2 + STAR_WIDTH*j
+    y = FIRST_STAR_Y + STAR_HEIGHT/2 +STAR_HEIGHT*i
+    Sprite(star,(x,y))
 myApp = App()
 myApp.run()
